@@ -25,7 +25,7 @@ npm install
 # Install electron-packager
 npm install electron-packager -g
 # Build application for Mac OS X
-electron-packager . "Swagger UI Desktop" --platform=darwin --arch=x64 --version=0.35.6 --out=dist
+electron-packager . "Swagger UI Desktop" --platform=darwin --arch=x64 --version=0.35.6 --icon=images/icon.icns --out=dist
 ```
 
 Read full documentation on how to use [electron-packager](https://github.com/electron-userland/electron-packager)
