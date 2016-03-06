@@ -30,4 +30,7 @@ electron-packager . "Swagger UI Desktop" --platform=darwin --arch=x64 --version=
 
 Read full documentation on how to use [electron-packager](https://github.com/electron-userland/electron-packager)
 
+## Screenshot
+![Screenshot of Swagger-UI-Desktop running on Mac OS X](swagger-ui-desktop-screenshot.png?raw=true)
+
 #### License [CC0 (Public Domain)](LICENSE.md)
