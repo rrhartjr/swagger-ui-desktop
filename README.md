@@ -14,4 +14,20 @@ cd swagger-ui-desktop
 npm install && npm start
 ```
 
+## To build application locally
+```bash
+# Clone this repository
+git clone https://github.com/shirishp/swagger-ui-desktop.git
+# Go into the repository
+cd swagger-ui-desktop
+# Install dependencies
+npm install
+# Install electron-packager
+npm install electron-packager -g
+# Build application for Mac OS X
+electron-packager . "Swagger UI Desktop" --platform=darwin --arch=x64 --version=0.35.6 --out=dist
+```
+
+Read full documentation on how to use [electron-packager](https://github.com/electron-userland/electron-packager)
+
 #### License [CC0 (Public Domain)](LICENSE.md)
